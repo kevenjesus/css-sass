@@ -1,0 +1,19 @@
+@mixin parametros ($tamanho, $margem, $espaco1, $espaco2) {
+    font: $tamanho;
+    padding: $espaco1 $espaco2;
+    margin-left: $margem;
+}
+
+%navbar-item {
+	list-style: none;
+	display: inline;
+	color: orange;
+	background: #441B39;
+	float: left;
+}
+
+%navbar-hover {
+	color: orange;
+	background: #441B39;
+}
+

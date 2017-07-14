@@ -1,0 +1,29 @@
+li.brand, li.item {
+  list-style: none;
+  display: inline;
+  color: orange;
+  background: #441B39;
+  float: left; }
+
+li a:hover {
+  color: orange;
+  background: #441B39; }
+
+#bootnavbar {
+  background: #441B39;
+  display: table;
+  width: 100%; }
+
+li a {
+  text-decoration: none; }
+
+li.brand {
+  font: 15px;
+  padding: 5px 10px;
+  margin-left: 5px;
+  margin-right: 25px; }
+
+li.item {
+  font: 12px;
+  padding: 5px 10px;
+  margin-left: 1px; }
