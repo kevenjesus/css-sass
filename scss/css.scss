@@ -2,26 +2,27 @@
 
 #bootnavbar {
 	background: #441B39;
-	display: table;
+	display: flex;
+	align-items: center;
 	width: 100%;
-}
-
-li a {
-	text-decoration: none;
-}
-
-li a:hover {
-	@extend %navbar-hover;
-}
-
-li.brand {
-	@extend %navbar-item;
-	@include parametros (15px, 5px, 5px, 10px);
-	margin-right: 25px;
-}
-
-li.item {
-	@extend %navbar-item;
-	@include parametros (12px, 1px, 5px, 10px);
+	li {
+		a {
+			color: #fff;
+			text-decoration: none;
+			&:hover {
+				@extend %navbar-hover;
+			}
+		}
+	}
+	.brand {
+		@extend %navbar-item;
+		font-weight: bold;
+		@include parametros (15px, 5px, 5px, 10px);
+		margin-right: 25px;
+	}
+	.item {
+		@extend %navbar-item;
+		@include parametros (12px, 1px, 5px, 10px);
+	}
 }
 
